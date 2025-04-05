@@ -17,3 +17,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[tool.black]
+line-length = 100  # You can set to 100, 120, etc.
